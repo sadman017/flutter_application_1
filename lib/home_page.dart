@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        actions: [],
+        actions: const [],
         title: const Text("Frenzy Chat"),
       ),
       body: const ChatScreen(),
